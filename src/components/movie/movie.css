@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.movie {
+  margin: 10px;
+  width: 400px;
+  position: relative;
+  cursor: pointer;
+}
+
+.movie-links {
+  text-decoration: none;
+  color: black;
+}
+
+.movie img {
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 5px;
+  max-width: 100%;
+}
+
+.info-average {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.movie-info h3 {
+  margin: 0;
+}
+
+.tag {
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.tag.green {
+  background-color: green;
+}
+
+.tag.yellow {
+  background-color: yellow;
+}
+
+.tag.red {
+  background-color: red;
+}
+
+.tag.grey {
+  background-color: grey;
+}
+
+@media screen and (max-width: 780px){
+
+  .movie{
+    width : 250px;
+  }
+
+  
+
+}

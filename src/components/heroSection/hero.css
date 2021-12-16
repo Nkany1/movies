@@ -1,0 +1,42 @@
+.hero-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-hero {
+  height: 91vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/10394926/pexels-photo-10394926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  padding: 150px 0 150px 0;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.hero-wrapper button {
+  background-color: lightgreen;
+  height: 40px;
+  width: 15%;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  font-weight: 700;
+  border: 0;
+  border: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .hero-wrapper button {
+    height: 55px;
+    width: 18%;
+  }
+}

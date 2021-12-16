@@ -1,0 +1,33 @@
+.about-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  padding: 100px 0 100px 0;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-details span {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.section-about {
+  height: 91vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/10394926/pexels-photo-10394926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
